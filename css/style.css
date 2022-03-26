@@ -404,6 +404,15 @@ color: var(--secondary-color);
 
 @media(max-width: 768px) {
   
+  .title {
+    position: absolute;
+    top: 45px;
+    left: 7%;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 20;
+  }
+  
   section {
     display: flex;
     flex-direction: column;
